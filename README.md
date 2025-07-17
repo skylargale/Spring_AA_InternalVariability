@@ -10,6 +10,6 @@ environment.yml: This .yml file contains all of the libraries needed to execute 
 
 Dynamic_Adjustment: This notebook contains the code for the partial least squares dynamic adjustment method based on Wallace et al., 2012 and Smoliak et al., 2015.
 
-The processed data that is used in these notebooks is located in Zenodo: [https://zenodo.org/records/16059348?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjU5YzQzMjY5LTJiNTItNDA1ZC04MjgxLTdlZWQyM2U5OTZiMCIsImRhdGEiOnt9LCJyYW5kb20iOiIxOGI4OWE0ZmQxNTk5ZWFhMDI0YzY3NjM0M2RiYmM5ZiJ9.F_UHerumf6Q0NaZ0FNtGmdDy-GjtcwonsQtuayYMjn4Ml5mJA_baaVMsOdOVRiVPusAHXgf3p6N9XiauaQaykw](https://zenodo.org/records/16059348?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjU5YzQzMjY5LTJiNTItNDA1ZC04MjgxLTdlZWQyM2U5OTZiMCIsImRhdGEiOnt9LCJyYW5kb20iOiIxOGI4OWE0ZmQxNTk5ZWFhMDI0YzY3NjM0M2RiYmM5ZiJ9.F_UHerumf6Q0NaZ0FNtGmdDy-GjtcwonsQtuayYMjn4Ml5mJA_baaVMsOdOVRiVPusAHXgf3p6N9XiauaQaykw). 
+The processed data that is used in these notebooks is located in [Zenodo](https://zenodo.org/records/16059348?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjU5YzQzMjY5LTJiNTItNDA1ZC04MjgxLTdlZWQyM2U5OTZiMCIsImRhdGEiOnt9LCJyYW5kb20iOiIxOGI4OWE0ZmQxNTk5ZWFhMDI0YzY3NjM0M2RiYmM5ZiJ9.F_UHerumf6Q0NaZ0FNtGmdDy-GjtcwonsQtuayYMjn4Ml5mJA_baaVMsOdOVRiVPusAHXgf3p6N9XiauaQaykw). 
 
 Note: All CNN training for the manuscript was done using 1 Tesla GPU on NCAR's Computational and Information Systems Laboratory Casper server.
