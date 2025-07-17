@@ -10,4 +10,6 @@ environment.yml: This .yml file contains all of the libraries needed to execute 
 
 Dynamic_Adjustment: This notebook contains the code for the partial least squares dynamic adjustment method based on Wallace et al., 2012 and Smoliak et al., 2015.
 
+data: This folder holds all of the data needed to train, test, and validate the Arctic and global CNNs as well as perform the dynamic adjustment.
+
 Note: All CNN training for the manuscript was done using 1 Tesla GPU on NCAR's Computational and Information Systems Laboratory Casper server.
