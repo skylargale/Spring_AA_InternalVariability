@@ -1,12 +1,22 @@
-# Spring_AA_InternalVariability
+# spring-aa-internalvariability
 
 This repository holds code relevant to Gale et al., 2026 (in revision).
 
-## environment.yml
+## Setup Instructions
 
-This .yml file contains all of the libraries needed to execute the CNN code. This can be used to set up a new kernel for the user to make running the CNNs easier.
+The `environment.yml` file contains all of the libraries needed to execute the CNN code. This can be used to set up a new kernel with all the libraries and dependencies. From the project root directory, run:
 
-## notebooks
+```conda env create -f environment.yml```
+
+Activate the environment:
+
+```conda activate my-kernel```
+
+Register the environment as a Jupyter kernel:
+
+```python -m ipykernel install --user --name my-kernel --display-name "my-kernel"```
+
+## Notebooks
 
 `Arctic_CNN.ipynb`: This notebook contains the training, testing, and validation for the hyperparameter-optimized Arctic CNN. Data load paths will need to be altered depending on where user downloads simulation training and observational data.
 
@@ -18,6 +28,6 @@ This .yml file contains all of the libraries needed to execute the CNN code. Thi
 
 Note: All CNN training for the manuscript was done using 1 Tesla GPU on NCAR's Computational and Information Systems Laboratory Casper server.
 
-## Zenodo
+## Data
 
 The processed data that is used in these notebooks is located in [Zenodo](https://zenodo.org/records/16059348?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjU5YzQzMjY5LTJiNTItNDA1ZC04MjgxLTdlZWQyM2U5OTZiMCIsImRhdGEiOnt9LCJyYW5kb20iOiIxOGI4OWE0ZmQxNTk5ZWFhMDI0YzY3NjM0M2RiYmM5ZiJ9.F_UHerumf6Q0NaZ0FNtGmdDy-GjtcwonsQtuayYMjn4Ml5mJA_baaVMsOdOVRiVPusAHXgf3p6N9XiauaQaykw).
