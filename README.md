@@ -8,11 +8,13 @@ This .yml file contains all of the libraries needed to execute the CNN code. Thi
 
 ## notebooks
 
-`Arctic_CNN.ipynb`: This notebook contrains the training, testing, and validation for the hyperparameter-optimized Arctic CNN. Data load paths will need to be altered depending on where user downloads simulation training and observational data.
+`Arctic_CNN.ipynb`: This notebook contains the training, testing, and validation for the hyperparameter-optimized Arctic CNN. Data load paths will need to be altered depending on where user downloads simulation training and observational data.
 
 `Dynamic_Adjustment.ipynb`: This notebook contains the code for the partial least squares dynamic adjustment method based on Wallace et al., 2012 and Smoliak et al., 2015.
 
-`Global_CNN.ipynb`: This notebook contrains the training, testing, and validation for the hyperparameter-optimized Global CNN. Data load paths will need to be altered depending on where user downloads simulation training and observational data.
+`Global_CNN.ipynb`: This notebook contains the training, testing, and validation for the hyperparameter-optimized Global CNN. Data load paths will need to be altered depending on where user downloads simulation training and observational data.
+
+`Make_Figures.ipynb`: THis notebook contains all code needed to make the figures and supplemental shown in Gale et al., 2026 (in revision).
 
 Note: All CNN training for the manuscript was done using 1 Tesla GPU on NCAR's Computational and Information Systems Laboratory Casper server.
 
