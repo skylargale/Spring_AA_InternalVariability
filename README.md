@@ -1,6 +1,6 @@
 # Spring_AA_InternalVariability
 
-This repository holds code relevant to Gale et al., 2025 (in prep).
+This repository holds code relevant to Gale et al., 2026 (in revision).
 
 Arctic_CNN: This notebook contrains the training, testing, and validation for the hyperparameter-optimized Arctic CNN. Data load paths will need to be altered depending on where user downloads simulation training and observational data.
 
