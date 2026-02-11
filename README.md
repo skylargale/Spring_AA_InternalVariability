@@ -24,7 +24,7 @@ Register the environment as a Jupyter kernel:
 
 `Global_CNN.ipynb`: This notebook contains the training, testing, and validation for the hyperparameter-optimized Global CNN. Data load paths will need to be altered depending on where user downloads simulation training and observational data.
 
-`Make_Figures.ipynb`: THis notebook contains all code needed to make the figures and supplemental shown in Gale et al., 2026 (in revision).
+`Make_Figures.ipynb`: This notebook contains all code needed to make the figures and supplemental shown in Gale et al., 2026 (in revision).
 
 Note: All CNN training for the manuscript was done using 1 Tesla GPU on NCAR's Computational and Information Systems Laboratory Casper server.
 
