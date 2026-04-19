@@ -1,6 +1,6 @@
 # spring-aa-internalvariability
 
-This repository holds code relevant to Gale et al., 2026 (in revision).
+This repository holds code relevant to [Gale et al., 2026](https://doi.org/10.1175/JCLI-D-25-0421.1).
 
 ## Setup Instructions
 
